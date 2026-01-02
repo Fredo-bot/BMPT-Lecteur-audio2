@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lecteur Audio Stylé</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="banner">
+  <img src="Cover/Bandeau2 (1).jpg" alt="Bandeau de présentation" class="banner-bg">
+  <img src="Cover/logo.png" alt="Logo Bien Mais Pas Top" class="banner-logo">
+</header>
+
+
+
+  <div class="playlist">
+
+    <div class="track">
+      <img src="Cover/Necro-cover.png" alt="Cover 1">
+      <p class="title">Necro</p>
+      <div class="progress">
+        <div class="progress-bar"></div>
+      </div>
+      <button onclick="playTrack(0)">▶ Écouter</button>
+      <audio src="chansons/necro-4.mp3"></audio>
+    </div>
+
+    <div class="track">
+      <img src="Cover/Gniack-cover.png" alt="Cover 2">
+      <p class="title">Gniaque</p>
+      <div class="progress">
+        <div class="progress-bar"></div>
+      </div>
+      <button onclick="playTrack(1)">▶ Écouter</button>
+      <audio src="chansons/Gniaque.mp3"></audio>
+    </div>
+
+    <div class="track">
+      <img src="Cover/Juste_un_instant_de_calme-cover.png" alt="Cover 3">
+      <p class="title">Juste un instant de calme</p>
+      <div class="progress">
+        <div class="progress-bar"></div>
+      </div>
+      <button onclick="playTrack(2)">▶ Écouter</button>
+      <audio src="chansons/Juste-un-instant-de-calme.suite.mp3"></audio>
+    </div>
+
+    <div class="track">
+      <img src="Cover/Hortansia-cover.png" alt="Cover 4">
+      <p class="title">Hortensia</p>
+      <div class="progress">
+        <div class="progress-bar"></div>
+      </div>
+      <button onclick="playTrack(3)">▶ Écouter</button>
+      <audio src="chansons/Hortensia mp3.mp3"></audio>
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
