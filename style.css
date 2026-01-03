@@ -27,7 +27,7 @@ body {
 
 /* Logo en haut à gauche */
 .banner-logo {
-  position: absolute;
+  --- position: absolute;
   top: 16px;
   left: 25px;
   height: 150px;
@@ -157,5 +157,6 @@ audio {
     left: 12px;
   }
 }
+
 
 
